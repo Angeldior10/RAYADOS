@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rayados de Monterrey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to bottom, #ffffff, #e0eafc);
+      color: #001f5b;
+    }
+
+    header {
+      background-color: #001f5b;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 80px;
+      vertical-align: middle;
+    }
+
+    h1 {
+      display: inline-block;
+      margin-left: 15px;
+      vertical-align: middle;
+      font-size: 2em;
+    }
+
+    .jugadores {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .jugador {
+      background-color: #f4f8ff;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .jugador img {
+      width: 100%;
+      max-width: 150px;
+      border-radius: 50%;
+    }
+
+    .estadisticas {
+      background-color: #e0eafc;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .estadisticas h2 {
+      margin-bottom: 10px;
+    }
+
+    .boton-rayados {
+      display: inline-block;
+      margin: 30px auto;
+      background-color: #001f5b;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .boton-rayados:hover {
+      background-color: #003ea8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #001f5b;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://upload.wikimedia.org/wikipedia/en/3/3e/C.F._Monterrey_crest.png" alt="Escudo Rayados">
+  <h1>Rayados de Monterrey</h1>
+</header>
+
+<section class="jugadores">
+  <div class="jugador">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Rogelio_Funes_Mori_Monterrey.jpg" alt="Funes Mori">
+    <h3>Rogelio Funes Mori</h3>
+    <p>Máximo goleador histórico del club.</p>
+  </div>
+  <div class="jugador">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Stefan_Medina_Monterrey.jpg" alt="Stefan Medina">
+    <h3>Stefan Medina</h3>
+    <p>Defensa sólido y líder en la zaga.</p>
+  </div>
+  <div class="jugador">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Luis_Rom%C3%B3_Monterrey.jpg" alt="Luis Romo">
+    <h3>Luis Romo</h3>
+    <p>Motor del mediocampo rayado.</p>
+  </div>
+</section>
+
+<section class="estadisticas">
+  <h2>Estadísticas del Club</h2>
+  <p>🏆 5 Títulos de Liga MX</p>
+  <p>🌍 5 Concachampions</p>
+  <p>🏟 Estadio BBVA - "El Gigante de Acero"</p>
+  <p>⚽ Fundado en 1945</p>
+</section>
+
+<div style="text-align: center;">
+  <a class="boton-rayados" href="https://www.rayados.com" target="_blank">¡Vamos Rayados!</a>
+</div>
+
+<footer>
+  © 2025 Fan page no oficial de Rayados de Monterrey
+</footer>
+
+</body>
+</html>
